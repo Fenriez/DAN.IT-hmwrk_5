@@ -1,0 +1,97 @@
+/* TAG */
+html {
+    font-family: Arimo, sans-serif;
+    font-size: 10px;
+}
+html,
+body,
+.container {
+    height: 100%; 
+}
+
+/* CLASS */
+.container {
+    min-height: 900px;  
+}
+
+.pricelist {
+    /* border: 1px solid black; */
+    border-spacing: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+tr, td, th {
+
+}
+
+.main_col {
+    width: 310px;
+}
+
+.content_col {
+    width: 277px;
+}
+
+
+.plan_name {
+    height: 76px;
+    color:  #ffffff;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.plan_name h1 {
+    color:  #484848;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.plan_name__std {
+    background-color: #89c331;
+}
+.plan_name__ult {
+    background-color: #f04a56;
+}
+.plan_name__prem {
+    background-color: #20807c;
+}
+
+
+
+
+.plan_price {
+    height: 80px;
+}
+tbody tr {
+    height: 69px;
+    color: #484848;
+    font-size: 1.6rem;
+    text-align: center;
+}
+tbody i {    
+    color: #848484;
+}
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+tbody tr:nth-child(even) {
+    background-color: #e3e3e3;
+}
+
+
+
+tfoot tr{
+    height: 109px;
+}
+
+tfoot td:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+tfoot td:nth-child(even) {
+    background-color: #eeeeee;
+}
+tfoot td:first-of-type {
+    background-color: #dddddd;
+}
+
+/* .storage i {
+    font-size: 23px;
+} */
